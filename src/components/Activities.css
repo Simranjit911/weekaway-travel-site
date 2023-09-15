@@ -1,0 +1,16 @@
+/* Activities.css */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 0.5 opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s cubic-bezier(0.445, 0.05, 0.55, 0.95); /* Transition for opacity with 1s duration and ease-in timing function */
+  }
+  
